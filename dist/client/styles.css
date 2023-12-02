@@ -1,0 +1,18 @@
+/* styles.css */
+body {
+    margin: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #dbd9af; /* Optional background color */
+}
+
+.center-text {
+    text-align: center;
+    font-family: 'Dancing Script', cursive; /* Handwriting font example */
+}
+
+.large-font {
+    font-size: 48px; /* Adjust the font size as needed */
+}
