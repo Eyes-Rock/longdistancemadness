@@ -6,7 +6,6 @@ body, html {
 }
 
 .background-container {
-    background-image: url('./data/old_paper.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,9 +16,10 @@ body, html {
 }
 
 .streaming-text {
+    width: 100%;
     text-align: left;
     font-family: 'Dancing Script', cursive;
-    font-size: 48px;
+    font-size: 42px;
     white-space: pre-wrap; /* Allow wrapping at word boundaries */
     overflow: hidden;    /* Hide overflowing text */
     /* border-right: 2px solid #333; Simulate a blinking cursor */
