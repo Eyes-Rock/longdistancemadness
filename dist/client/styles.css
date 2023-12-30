@@ -16,12 +16,14 @@ body, html {
 }
 
 .streaming-text {
-    width: 100%;
-    text-align: left;
+    background: rgba(241, 202, 29, 0.8);
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 42px;
+    font-size: 32px;
     white-space: pre-wrap; /* Allow wrapping at word boundaries */
     overflow: hidden;    /* Hide overflowing text */
     /* border-right: 2px solid #333; Simulate a blinking cursor */
-    padding: 50px;  /* Add some padding for the cursor */
+    margin: 50px;  /* Add some padding for the cursor */
 }
