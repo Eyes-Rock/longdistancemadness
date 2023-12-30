@@ -15,7 +15,7 @@ function updateBackgroundBasedOnDate(currentDate: Date) {
     // let shand = document.getElementsByClassName('s-hand') as HTMLCollectionOf<HTMLElement>;
     let bg_image = document.getElementsByClassName("background-container") as HTMLCollectionOf<HTMLElement>;
     // const dayOfMonth = currentDate.getDate();
-    const month = 0; // currentDate.getMonth()
+    const month = currentDate.getMonth()
     // console.log(dayOfMonth)
     // console.log(month)
     // Define the base path for your background images
@@ -39,7 +39,7 @@ function updateBackgroundBasedOnDate(currentDate: Date) {
 async function displayRandomText(currentDate: Date): Promise<void> {
     let text_bg = document.getElementsByClassName('streaming-text') as HTMLCollectionOf<HTMLElement>;
 
-    const month = 0; // currentDate.getMonth()
+    const month = currentDate.getMonth()
     const randomTextElement = document.getElementById('randomText');
     if (randomTextElement) {
         if (month == 0 || month == 1){
